@@ -33,7 +33,7 @@ const Header = () => {
               <span className="waveIcon">👋</span>
               <div style={{ marginLeft: 20 }}>
                 <p className="intro">Hello, I am</p>
-                <h1 className="myName">Abuzar</h1>
+                <h1 className="myName">Sumaiya</h1>
               </div>
             </div>
           </motion.div>

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-project/static/css/main.3b60694e.css",
+    "main.js": "/portfolio-project/static/js/main.ad5f3f73.js",
+    "static/js/453.9081e56e.chunk.js": "/portfolio-project/static/js/453.9081e56e.chunk.js",
+    "static/media/pallete.png": "/portfolio-project/static/media/pallete.07796fc3b1dd613f6060.png",
+    "static/media/brushes.mp4": "/portfolio-project/static/media/brushes.c3137e86ba7593e4bacf.mp4",
+    "static/media/hand.png": "/portfolio-project/static/media/hand.fb3160416ad7359d010d.png",
+    "static/media/qalam.png": "/portfolio-project/static/media/qalam.8057a97b325587a24cbc.png",
+    "static/media/Customize Name.jpg": "/portfolio-project/static/media/Customize Name.509dcc0571e84836ee07.jpg",
+    "static/media/girl.png": "/portfolio-project/static/media/girl.89414c866a2af4151086.png",
+    "static/media/Peace Jar.jpg": "/portfolio-project/static/media/Peace Jar.1af3e54110c04096837d.jpg",
+    "static/media/Qura'an Verse.jpg": "/portfolio-project/static/media/Qura'an Verse.06bde485fd7e2d508296.jpg",
+    "static/media/image.jpeg": "/portfolio-project/static/media/image.9e4e0e33c67c66350e79.jpeg",
+    "static/media/Nature Painting.jpg": "/portfolio-project/static/media/Nature Painting.9cdf59431bd688fcac89.jpg",
+    "static/media/Logo.png": "/portfolio-project/static/media/Logo.c34a3bcbb2c28e84e443.png",
+    "index.html": "/portfolio-project/index.html",
+    "main.3b60694e.css.map": "/portfolio-project/static/css/main.3b60694e.css.map",
+    "main.ad5f3f73.js.map": "/portfolio-project/static/js/main.ad5f3f73.js.map",
+    "453.9081e56e.chunk.js.map": "/portfolio-project/static/js/453.9081e56e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b60694e.css",
+    "static/js/main.ad5f3f73.js"
+  ]
+}

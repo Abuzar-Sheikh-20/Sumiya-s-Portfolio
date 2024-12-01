@@ -1,0 +1,22 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10; 
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: green !important;
+}
+
+.logo {
+  width: 50px;
+  position: absolute;
+  left: 20px;
+  bottom: 4px;
+}

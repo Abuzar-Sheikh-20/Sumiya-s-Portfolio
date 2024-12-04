@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sumiya-s-Portfolio/static/css/main.41546ffa.css",
-    "main.js": "/Sumiya-s-Portfolio/static/js/main.56230efd.js",
+    "main.css": "/Sumiya-s-Portfolio/static/css/main.8585b86a.css",
+    "main.js": "/Sumiya-s-Portfolio/static/js/main.45519f92.js",
     "static/js/453.9081e56e.chunk.js": "/Sumiya-s-Portfolio/static/js/453.9081e56e.chunk.js",
     "static/media/pallete.png": "/Sumiya-s-Portfolio/static/media/pallete.07796fc3b1dd613f6060.png",
     "static/media/brushes.mp4": "/Sumiya-s-Portfolio/static/media/brushes.c3137e86ba7593e4bacf.mp4",
@@ -15,12 +15,12 @@
     "static/media/Nature Painting.jpg": "/Sumiya-s-Portfolio/static/media/Nature Painting.9cdf59431bd688fcac89.jpg",
     "static/media/Logo.png": "/Sumiya-s-Portfolio/static/media/Logo.c34a3bcbb2c28e84e443.png",
     "index.html": "/Sumiya-s-Portfolio/index.html",
-    "main.41546ffa.css.map": "/Sumiya-s-Portfolio/static/css/main.41546ffa.css.map",
-    "main.56230efd.js.map": "/Sumiya-s-Portfolio/static/js/main.56230efd.js.map",
+    "main.8585b86a.css.map": "/Sumiya-s-Portfolio/static/css/main.8585b86a.css.map",
+    "main.45519f92.js.map": "/Sumiya-s-Portfolio/static/js/main.45519f92.js.map",
     "453.9081e56e.chunk.js.map": "/Sumiya-s-Portfolio/static/js/453.9081e56e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41546ffa.css",
-    "static/js/main.56230efd.js"
+    "static/css/main.8585b86a.css",
+    "static/js/main.45519f92.js"
   ]
 }

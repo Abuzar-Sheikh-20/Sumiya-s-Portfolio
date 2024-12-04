@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './Footer.css';
+import {motion} from 'framer-motion';
+import { useInView } from "react-intersection-observer";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -34,8 +36,17 @@ const ContactForm = () => {
     });
   };
 
+  const { ref, inView } = useInView({ threshold: 0.1 });
+
   return (
-    <section className="contact-form-section">
+    <motion.div
+      ref={ref}
+      initial={{ y: 200 }}
+      animate={{ y: inView ? 0 : 200 }}
+      transition={{ duration: 1 }}
+    >
+
+    <section id='contact' className="contact-form-section">
       <h2 className="heading">Creating magic with colors, <span> Let’s paint your story</span></h2> 
       <form className="contact-form" onSubmit={handleSubmit}>
         <input
@@ -72,6 +83,7 @@ const ContactForm = () => {
         <button type="submit" className="submit-button">Send Message</button>
       </form>
     </section>
+    </motion.div>
   );
 };
 

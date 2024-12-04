@@ -1,6 +1,7 @@
 // import React, {useState, useEffect} from 'react'
 import './Work.css';
 import {motion} from 'framer-motion';
+import { useInView } from "react-intersection-observer";
 
 import naturePainting from './Nature Painting.jpg';
 import quranVerse from './Qura\'an Verse.jpg';
@@ -15,13 +16,15 @@ const works = [
 ]
 
 const Work = () => {
+  const { ref, inView } = useInView({ threshold: 0.1 });
   return (
     <motion.div
-      initial={{ y: 200 }} 
-      animate={{ y: 0 }} 
+      ref={ref}
+      initial={{ y: 200 }}
+      animate={{ y: inView ? 0 : 100 }}
       transition={{ duration: 1 }}
     >
-    <div>
+    <div id='work' className='work'>
       <h2>My Creative <span>Works</span></h2>
 
       <div className="workSection">

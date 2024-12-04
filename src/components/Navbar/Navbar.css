@@ -17,6 +17,14 @@
 .logo {
   width: 50px;
   position: absolute;
-  left: 20px;
+  left: 20px; /* Desktop view ke liye left pe rahega */
   bottom: 4px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    left: auto; /* Left ko hata kar */
+    right: 20px; /* Right side me shift karenge */
+    top: 4px;
+  }
 }

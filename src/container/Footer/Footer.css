@@ -1,58 +1,62 @@
-.contact-form-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 25vh 0;
-}
+  #contact{
+    height: 80vh;
+  }
 
-.heading{
-  padding-bottom: 40px;
-}
-.contact-info {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  margin-bottom: 20px;
-}
+  .contact-form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
 
-.contact-info div {
-  text-align: center;
-}
+  .heading{
+    padding-bottom: 40px;
+  }
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
-.contact-info p {
-  margin-top: 10px;
-}
+  .contact-info div {
+    text-align: center;
+  }
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
+  .contact-info p {
+    margin-top: 10px;
+  }
 
-.contact-form input,
-.contact-form textarea {
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid green;
-  border-radius: 10px;
-  font-size: 16px;
-}
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
 
-.contact-form textarea {
-  height: 100px;
-  resize: none;
-}
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+    font-size: 16px;
+  }
 
-.submit-button {
-  padding: 10px;
-  background-color: green;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.4s ease-in-out;
-}
+  .contact-form textarea {
+    height: 100px;
+    resize: none;
+  }
 
-.submit-button:hover {
-  background-color: rgb(1, 153, 1);
-}
+  .submit-button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+  }
+
+  .submit-button:hover {
+    background-color: rgb(1, 153, 1);
+  }

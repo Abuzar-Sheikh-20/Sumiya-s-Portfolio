@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {motion} from 'framer-motion';
 import './Testimonial.css';
+import { useInView } from "react-intersection-observer";
 
 const testimonials = [
   {
@@ -37,12 +38,22 @@ const Testimonial = () => {
 
   const { name, feedback, company } = testimonials[currentIndex];
 
+  const { ref, inView } = useInView({ threshold: 0.1 });
+
   return (
     <motion.div
-      whileHover={{ scale: 1.05 }} 
-      transition={{ duration: 0.5, type: "tween" }}
+      ref={ref}
+      initial={{ y: 200 }}
+      animate={{ y: inView ? 0 : 100 }}
+      transition={{ duration: 1 }}
     >
-    <div className="testimonial-container">
+
+    <section id='testimonial' className="testimonial">
+    <h2>Testimonials</h2>
+    <motion.div
+    whileHover={{ scale: 1.05 }} 
+    transition={{ duration: 0.5, type: "tween" }}
+    className="testimonial-container">
       <div className="testimonial-card">
         <p className="testimonial-feedback">{feedback}</p>
         <h3 className="testimonial-name">{name}</h3>
@@ -53,7 +64,8 @@ const Testimonial = () => {
         <button onClick={handlePrev}>&lt;</button>
         <button onClick={handleNext}>&gt;</button>
       </div>
-    </div>
+    </motion.div>
+    </section>
     </motion.div>
   );
 };

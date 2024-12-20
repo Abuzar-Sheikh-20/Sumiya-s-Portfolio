@@ -49,22 +49,23 @@ const ContactForm = () => {
     <section id='contact' className="contact-form-section">
       <h2 className="heading">Creating magic with colors, <span> Let’s paint your story</span></h2> 
       <form className="contact-form" onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="from_name"
-          placeholder="Your Email"
-          value={formData.from_name}
-          onChange={handleChange}
-          required
-        />
-        <input
+      <input
           type="email"
           name="reply_to"
-          placeholder="Your Password"
+          placeholder="Your Email"
           value={formData.reply_to}
           onChange={handleChange}
           required
         />
+        <input
+          type="text"
+          name="from_name"
+          placeholder="Your Password"
+          value={formData.from_name}
+          onChange={handleChange}
+          required
+        />
+        
         {/* <input
           type="password"
           name="password"

@@ -52,7 +52,7 @@ const ContactForm = () => {
         <input
           type="text"
           name="from_name"
-          placeholder="Your Name"
+          placeholder="Your Email"
           value={formData.from_name}
           onChange={handleChange}
           required
@@ -60,7 +60,7 @@ const ContactForm = () => {
         <input
           type="email"
           name="reply_to"
-          placeholder="Your Email"
+          placeholder="Your Password"
           value={formData.reply_to}
           onChange={handleChange}
           required
